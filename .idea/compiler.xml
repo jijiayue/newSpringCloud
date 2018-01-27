@@ -9,6 +9,8 @@
         <module name="config_test_clent" />
         <module name="config_test_server" />
         <module name="eureka_server" />
+        <module name="service_one" />
+        <module name="service_two" />
         <module name="spring-cloud-config-client" />
         <module name="spring-cloud-config-server" />
       </profile>
@@ -18,7 +20,9 @@
       <module name="config_test_clent" target="1.8" />
       <module name="config_test_server" target="1.8" />
       <module name="eureka_server" target="1.8" />
-      <module name="newSpringCloud" target="1.6" />
+      <module name="newSpringCloud" target="1.8" />
+      <module name="service_one" target="1.8" />
+      <module name="service_two" target="1.8" />
       <module name="spring-cloud-config-client" target="1.8" />
       <module name="spring-cloud-config-server" target="1.8" />
     </bytecodeTargetLevel>

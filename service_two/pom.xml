@@ -9,14 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>eureka_server</groupId>
-    <artifactId>eureka_server</artifactId>
+    <groupId>service_two</groupId>
+    <artifactId>service_two</artifactId>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-        <spring-cloud.version>Dalston.RELEASE</spring-cloud.version>
-    </properties>
 
 </project>
