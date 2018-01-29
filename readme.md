@@ -51,7 +51,9 @@ Spring Cloud Bus----消息总线
    server端配置 RabbitMQ 并且引包
    client 也需要引用 来支持RabbitMQ
 
-
+zuul
+   并且Zuul的路由规则如下：http://ZUUL_HOST:ZUUL_PORT/微服务在Eureka上的serviceId(spring.application.name)/**
+   会被转发到serviceId对应的微服务。
 
 
 

@@ -14,6 +14,7 @@
         <module>eureka_server</module>
         <module>service_one</module>
         <module>service_two</module>
+        <module>zuul_server</module>
     </modules>
     <!-- 继承一个spring的 spring-boot-starter-parent -->
     <parent>

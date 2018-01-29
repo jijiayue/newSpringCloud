@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/newSpringCloud.iml" filepath="$PROJECT_DIR$/newSpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_one/service_one.iml" filepath="$PROJECT_DIR$/service_one/service_one.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_two/service_two.iml" filepath="$PROJECT_DIR$/service_two/service_two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul_server/zuul_server.iml" filepath="$PROJECT_DIR$/zuul_server/zuul_server.iml" />
     </modules>
   </component>
 </project>
