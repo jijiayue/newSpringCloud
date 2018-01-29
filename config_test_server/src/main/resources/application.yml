@@ -1,5 +1,7 @@
 server:
   port: 8001
+    #{强烈注意，服务端是不能写contextPath:的否则客户端无法连接}
+    #contextPath: /syxSpringCloud02EurekaService
 spring:
   application:
     name: config_server
@@ -11,7 +13,13 @@ spring:
           search-paths: config-repo                                          # git仓库地址下的相对地址，可以配置多个，用,分割。
           username: jijiayue                                                  # git仓库的账号
           password: 15275263276yun                                            # git仓库的密码
-
+  #启动你的MQ  新建的用户
+  # 端口为5672（注意这里没写错，web管理端端口是15672）
+  rabbitmq:
+    host: 192.168.5.77
+    port: 5672
+    username: admin
+    password: 123456
 
 eureka:
   client:

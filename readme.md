@@ -44,6 +44,13 @@
 
 高可用
   启动类添加@EnableDiscoveryClient激活对配置中心的支持
+  防止  配置中心 服务挂掉  client和server作修改  详见模块
+  
+  
+Spring Cloud Bus----消息总线
+   server端配置 RabbitMQ 并且引包
+   client 也需要引用 来支持RabbitMQ
+
 
 
 
