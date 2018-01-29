@@ -11,8 +11,8 @@ spring:
         git:
           uri: https://github.com/jijiayue/newSpringCloud    # 配置git仓库的地址
           search-paths: config-repo                                          # git仓库地址下的相对地址，可以配置多个，用,分割。
-          username: jijiayue                                                  # git仓库的账号
-          password: 15275263276yun                                            # git仓库的密码
+          username: name                                                  # git仓库的账号
+          password: passwd                                            # git仓库的密码
   #启动你的MQ  新建的用户
   # 端口为5672（注意这里没写错，web管理端端口是15672）
   rabbitmq:
