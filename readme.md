@@ -56,6 +56,21 @@ zuul
    会被转发到serviceId对应的微服务。
 
 
+多注册中心 
+  eurekaClient端 
+  eureka:
+    instance:
+      hostname: peer1
+    client:
+      serviceUrl:
+        defaultZone: http://peer2:8001/eureka/,http://peer3:8002/eureka/
+  用“，”隔开  多指向  并启动多个注册中心  
+  上边的peer1、2、3 是在host文件配置
+  127.0.0.1 peer1  
+  127.0.0.1 peer2  
+  127.0.0.1 peer3
+   不在同一台服务器或许就不用指到那台服务器id？
+
 
 
 
